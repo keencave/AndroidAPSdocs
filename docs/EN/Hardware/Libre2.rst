@@ -183,13 +183,11 @@ If the sensor moved a little bit on the skin or is lifted somehow this can cause
 Using bluetooth transmitter and OOP
 ==================================================
 
-Besides the patched app the new Droplet transmitter or (soon available) the new OOP algorithm of xDrip+ can be used to receive blood sugar values. MM2 and blucon do NOT work so far.
+Bluetooth transmitter can be used with the Libre2 with the latest xDrip+ nightlys. You can receive blood sugar readings every 5 minutes as well as with the Libre1. Please refer to the miaomiao website to find a description. This will also work with the Bubble devices and in the future with other transmitter devices. The blucon should work in the future but has not benn tested yet.
 
-Bluetooth transmitter can be used with the Libre2 with the latest xDrip+ nightlys. Please refer to the miaomiao website to find a description. This will also work with the Bubble devices and in the future with other transmitter devices.
+The Droplet transmitter is working with Libre2 but uses an internet service instead. Please refer to FB or Google to get further informations.
 
-The Droplet transmitter is working with Libre2 but uses a internet service. Please refer to FB or Google to get further information.
-
-Even if the patched LibreLink app approach is smart there may be some reasons to use a bluetooth transmitter instead.
+Even if the patched LibreLink app approach is smart there may be some reasons to use a bluetooth transmitter:
 
 * the BG readings are identical to the reader results
 * the Libre2 sensor can be used 14.5 days as with the Libre1 before 
@@ -197,3 +195,5 @@ Even if the patched LibreLink app approach is smart there may be some reasons to
 * get BG readings during the 1 hour startup time of a new sensor
 
 Remark: The transmitter can be used in parallel to the LibreLink app. It doesn't disturb the patched LibreLink app operation.
+
+Remark #2: The OOP algorithm cannot be calibrated yet. This will be changed in the future.
